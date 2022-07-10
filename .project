@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>conculator</name>
-	<comment>Project conculator created by Buildship.</comment>
+	<name>calculator</name>
+	<comment>Project calculator created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
