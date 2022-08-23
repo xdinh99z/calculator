@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Docker build') {
             steps {
-                sh "sudo docker ps"
+                sh "docker build -t xdinh99z/calculator ."
             }
         }		
         stage('Compile') {
