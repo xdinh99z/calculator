@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Docker build') {
             steps {
-                sh "docker ps"
+                sh "sudo docker ps"
             }
         }		
         stage('Compile') {
