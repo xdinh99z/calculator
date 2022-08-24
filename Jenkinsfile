@@ -13,7 +13,7 @@ pipeline {
         }
         stage("Docker push") {
            steps {
-              sh "docker push <username>/calculator"
+              sh "docker push xdinh99z/calculator"
             }
           }
         stage('Compile') {
