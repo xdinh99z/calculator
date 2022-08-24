@@ -10,7 +10,12 @@ pipeline {
             steps {
                 sh "docker build -t xdinh99z/calculator ."
             }
-        }		
+        }
+        stage("Docker push") {
+           steps {
+              sh "docker push <username>/calculator"
+            }
+          }
         stage('Compile') {
             steps {
                 sh './gradlew compileJava'
