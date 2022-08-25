@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Docker build') {
             steps {
-                sh "docker build -t xdinh99z/calculator:caching ."
+                sh "docker build -t xdinh99z/calculator ."
             }
         }
         stage("Docker push") {
